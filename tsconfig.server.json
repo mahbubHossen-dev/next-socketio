@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES2017",
+      "outDir": "./dist",
+      "rootDir": ".",  // ⬅️ পুরো প্রজেক্ট root এফেক্টিভ
+      "moduleResolution": "Node",
+      "strict": true,
+      "noEmit": false,
+      "isolatedModules": false
+    },
+    "include": ["server.mts"]
+  }
+  
